@@ -1,7 +1,7 @@
 # limpynet
-A simple console-based feedforward neural net with customizable layering. Learns the MNIST digits to about 97%, depending on settings.
+A simple console-based feedforward neural net with customizable layering. Learns the MNIST digits to about 97%, depending on the settings provided.
 
-It's worth noting that you wouldn't really use this program for serious and/or performant neural netting; it's only something fun I messed around with. Recurrent neural nets would be a bit more interesting still, but a bit more complicated, too, for implementing from the ground up.
+It's worth noting that you wouldn't really use this program for serious and/or performant neural netting; it's just something fun I messed around with back in 2016. Recurrent neural nets would be a bit more interesting still, but a bit more complicated, too, for implementing from the ground up.
 
 There's no way to save a trained net's weights. But as a consolation, once training is finished, you get the quiz mode: digits are randomly drawn from the MNIST validation set and into the console, followed by a display of whether the net correctly identifies that digit.
 
